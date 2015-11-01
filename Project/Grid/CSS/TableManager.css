@@ -1,0 +1,34 @@
+﻿/*
+    page control icon (increment control)
+*/
+.double_arrow_left{
+    background-image:url("ICON/double_arrow_left.png");
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.double_arrow_right{
+    background-image:url("ICON/double_arrow_right.png");
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.left_end{
+    /*padding:50% 50%;*/
+    background-image:url("ICON/left_end.png");
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.right_end{
+    background-image:url("ICON/right_end.png");
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.arrow_right{
+    background-image:url("ICON/arrow_right.png");
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.arrow_left{
+    background-image:url("ICON/arrow_left.png");
+    background-repeat:no-repeat;
+    background-position:center;
+}

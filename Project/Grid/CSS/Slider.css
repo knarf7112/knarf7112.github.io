@@ -1,0 +1,65 @@
+﻿/*
+    Main DOM
+*/
+#Slider{
+    position:absolute;
+    /*border:1px solid red;*/
+    width:100%;
+    height:30px;
+    top:590px;
+    left:0px;
+    /*
+        禁止文字選取
+    */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select:none;
+}
+/* 滑桿 */
+.sliderBar{
+    position:relative;
+    width: 99%;
+    height: 15%;
+    border:1px solid blue;/*silver;*/
+    border-radius: 5px 5px;
+    margin: 0px auto;/*水平置中*/
+    top:50%;
+    /*垂直置中=> position + top + transform設定*/
+    /*ref:http://www.oxxostudio.tw/articles/201502/css-vertical-align-7methods.html*/
+    transform:translateY(-50%);
+    /*
+        禁止文字選取
+    */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select:none;
+}
+/* 滑塊 */
+.slider{
+    position:absolute;
+    width:100%;
+    height:200%;
+    border-radius:3px 3px;
+    background-color:rgba(111, 55, 185,0.8);
+    transform:translateY(-30%);
+    top:0px;
+    /*
+        禁止文字選取
+    */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select:none;
+}
+.slider:hover{
+    background-color:yellowgreen;
+    border:1px solid red;
+}
