@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        #test {
+            position: absolute;
+            /*border:1px solid red;*/
+            width: 800px;
+            height: 600px;
+            top: 100px;
+            left: 100px;
+        }
+
+        .grid {
+            /*position:absolute;*/
+            /*border: 1px solid red;*/
+            /*box-shadow: 10px 10px 20px #888888;*/
+            /*
+                禁止文字選取
+            */
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select:none;
+        }
+
+        .pageControl {
+            /*position設定才能使事件的layerX有東西可以對照*/
+            position: relative;
+            /*border: 1px solid red;*/
+            /*box-shadow: 10px 10px 20px #888888;*/
+            /*
+                禁止文字選取
+            */
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select:none;
+        }
+        #title{
+            position:absolute;
+            left:100px;
+        }
+    </style>
+    <meta content="text/html; charset=utf-8" />
+    <meta name="description" content="Grid,JavaScript," />
+    <meta name="keywords" content="Grid" />
+    <title>pure canvas Grid</title>
+    <script data-type="dataSet">
+    var test = {
+        type: "init",
+        content: [
+            ["test1", "test2", "test3", "test4", "test5"]
+        ]
+    }
+    for (var count = 1; count <= 1000; count++) {
+        test.content.push([]);
+        for (var count2 = 0; count2 < 5 ; count2++) {
+            test.content[count].push(count * count2);
+        }
+    }
+    </script>
+    <script type="text/javascript" src="/Project/Grid/data/data.js" data-type="dataSet"></script>
+    <script type="text/javascript" src="/Project/Grid/JS/canvasGrid.js"></script>
+</head>
+<body>
+    <div><a href="../../index.html">Back Home</a></div>
+    <h1 id="title">This is Pure Canvas Grid Prototype</h1>
+    <div id="test"></div>
+    <script>
+        const div1 = document.getElementById('test');
+        const testGrid = new Grid({ mainElement: div1 });
+        testGrid.init();
+        testGrid.JsonDataLoad(testObj);//借來的JSON數據
+                                  //test.content, refinedFunction);//kai的數據
+    </script>
+</body>
+</html>
