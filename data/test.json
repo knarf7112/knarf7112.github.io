@@ -1,0 +1,7 @@
+﻿{
+    "a": "abc",
+    "b": true,
+    "c": 123,
+    "d": [ "a", "b", "c" ],
+    "e": { "name": "test", "id": 999, "check": true }
+}

@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .backgroundImage{
+            background-image:url('pic/snow_night.jpg');
+            background-repeat:no-repeat;
+            background-size:100% 100%;
+        }
+        .specified_Size{
+            position:relative;
+            left:50px;
+            top:50px;
+            width: 1600px;
+            height: 1200px;
+        }
+    </style>
+<meta content="text/html; charset=utf-8"/>
+    <script type="text/javascript" src="JS/snowEffect.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    <div id="container" class="specified_Size backgroundImage"><canvas width="1600" height="1200" id="cvs"></canvas></div>
+    <script type="text/javascript">
+        var canvas = document.getElementById('cvs');
+        var ctx = canvas.getContext('2d');
+        var testEffect = new Snow_Effect(canvas.width, canvas.height, 150);
+        testEffect.init(ctx);
+        testEffect.draw();
+    </script>
+</body>
+</html>
