@@ -20,13 +20,34 @@
     <title>Home</title>
 </head>
 <body>
-    <div id="container" class="specified_Size backgroundImage"><canvas width="1600" height="1200" id="cvs"></canvas></div>
-    <script type="text/javascript">
-        var canvas = document.getElementById('cvs');
-        var ctx = canvas.getContext('2d');
-        var testEffect = new Snow_Effect(canvas.width, canvas.height, 150);
-        testEffect.init(ctx);
-        testEffect.draw();
+    <header>
+        <nav>
+            <a href="#">ABout</a>
+            <a href="#a1">Work</a>
+            <a href="#a2">Content</a>
+        </nav>
+    </header>
+    <div id="main">
+        <div id="container" class="specified_Size backgroundImage"><canvas width="1600" height="1200" id="cvs"></canvas></div>
+        <script type="text/javascript">
+            var canvas = document.getElementById('cvs');
+            var ctx = canvas.getContext('2d');
+            var testEffect = new Snow_Effect(canvas.width, canvas.height, 150);
+            testEffect.init(ctx);
+            testEffect.draw();
+            fetch('/data/test.json').then(function (res) {
+                if (res.ok) {
+                    return res.json();
+                }
+            }).then(function (data) {
+                console.log('data',data);
+            });
+        </script>
+    </div>
+    <h1 id="a1" class="test" style="position:relative;border:1px solid red; top:2000px;width:100px;height:50px;left:1000px;background-color:green;">789</h1>
+    <a id="a2" class="test" style="position:relative;border:1px solid red; top:3000px;width:100px;height:50px;left:2000px;background-color:yellow;">789</a>
+    <script>
+        
     </script>
 </body>
 </html>
