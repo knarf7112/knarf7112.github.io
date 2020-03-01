@@ -47,7 +47,7 @@ iBon的企業加值 web服務開發, iCash卡片製作時的加解密應用程�
 
 ## Side Projects
 
- [2015 - Pure JavaScript Grid library](https://knarf7112.github.io/)
+- [2015 - Pure JavaScript Grid library](https://knarf7112.github.io/)
 
 ## Education
 
