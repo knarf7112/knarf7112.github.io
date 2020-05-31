@@ -18,27 +18,28 @@
 
 ## Key Skills
 
-- Frontend: ES6, Angular 6, RxJs, HTML5, Webpack
-- Backend: ASP.NET, Web API, ASP NET MVC, NodeJS
+- Frontend: ES6, Angular 6, RxJS, HTML5, Webpack
+- Backend: ASP.NET, Web API, ASP.NET.MVC, NodeJS
 - Databases: Redis, MSSQL
 - Testing: Mocka, NUnit, Spec flow, Selenium
-- DevOps: Jenkins, Powershell
+- DevOps: Jenkins, Powershell, bash
+- Network: nmap
 - Analytics: ELK
 - Others: Socket, Agile Scrum, IIS Performance tuning
 
 ## Work Experience
 
-### 軒昂有限公司 - IT Consultant - _2017/03-now_
+### 軒昂有限公司 - Front-End Engineer - _2017/03-now_
 - 與產品端的系統整合服務的前後端服務開發並處理介接廠商的技術問題.
 - IIS效能調整以防止Web服務因瞬間大流量造成應用崩潰.
 - 開發Throttle功能針對指定目標限制流量.
 
-### 歐付寶電子支付股份有限公司 - 軟體工程師 - _2016/04-2017/03_
+### 歐付寶電子支付股份有限公司 - Soft Engineer - _2016/04-2017/03_
 - 歐付寶線上平台的前後台金流網站功能開發.
 - 水費繳費功能開發, 手機App webview內的web服務開發.
 - 手機推播與WebSocket服務維護, 並調整Websocket Server端服務避免攻擊.
 
-### 統一愛金卡股份有限公司 - 資訊工程師 - _2014/10-2016/04_
+### 統一愛金卡股份有限公司 - Soft Engineer - _2014/10-2016/04_
 - 7-11門市POS機和愛金卡中心端和7間銀行端的聯名卡自動加值服務開發.
 - iBon卡機與愛金卡中心端的web服務開發.
 - iCash卡片製作時的加解密應用程式開發.
