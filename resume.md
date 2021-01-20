@@ -30,7 +30,7 @@
 
 ## Work Experience
 
-### 軒昂有限公司 - Front-End Engineer - _2017/03-now_
+### 軒昂有限公司 - Software Engineer - _2017/03-now_
 - 升級angular與優化webpack.  
 - 引入Lazy load module並拆分模組.  
 - 使用React hooks重新改版平台.
@@ -40,12 +40,12 @@
 - 開發Throttle功能針對指定目標限制流量.
 - 開發Circuit breaker功能來暫時性阻擋大量異常請求.  
 
-### 歐付寶電子支付股份有限公司 - Soft Engineer - _2016/04-2017/03_
+### 歐付寶電子支付股份有限公司 - Software Engineer - _2016/04-2017/03_
 - 歐付寶線上平台的前後台金流網站功能開發.
 - 水費繳費功能開發, 手機App webview內的web服務開發.
 - 手機推播與WebSocket服務維護, 並調整Websocket Server端服務避免攻擊.
 
-### 統一愛金卡股份有限公司 - Soft Engineer - _2014/10-2016/04_
+### 統一愛金卡股份有限公司 - Software Engineer - _2014/10-2016/04_
 - 7-11門市POS機和愛金卡中心端和7間銀行端的聯名卡自動加值服務開發.
 - iBon卡機與愛金卡中心端的web服務開發.
 - iCash卡片製作時的加解密應用程式開發.
