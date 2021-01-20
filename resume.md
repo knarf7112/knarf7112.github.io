@@ -2,7 +2,7 @@
 
 目前任職於軒昂有限公司,主要工作是與產品端的系統整合服務的前後端web服務開發.  
 期間將MVC Razor page轉換成純前端頁面組件,升級angular與webpack並調整設定來加速編譯速度,引入Lazy load module並拆分模組,使用React hooks重新改版平台.  
-處理介接廠商的技術問題並重新整合與規劃CICD流程與團隊的git flow.  
+處理介接廠商的技術問題並重新整合與規劃CICD流程以及團隊的git上版流程.  
 期間完成 IIS 效能調整以防止Web服務因瞬間大流量造成應用崩潰,並開發Throttle功能針對指定目標限制流量和Circuit breaker功能.  
 
 於歐付寶時,完成水費繳費功能開發,App webview內的web服務功能開發,金流API功能開發與維護.  
@@ -31,6 +31,10 @@
 ## Work Experience
 
 ### 軒昂有限公司 - Front-End Engineer - _2017/03-now_
+- 升級angular與優化webpack  
+- 引入Lazy load module並拆分模組  
+- 使用React hooks重新改版平台
+- 重新整合與規劃CICD流程以及團隊的git上版流程
 - 與產品端的系統整合服務的前後端服務開發並處理介接廠商的技術問題.
 - IIS效能調整以防止Web服務因瞬間大流量造成應用崩潰.
 - 開發Throttle功能針對指定目標限制流量.
