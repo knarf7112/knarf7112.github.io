@@ -1,7 +1,7 @@
 # 楊世嘉(Knock)
 
 目前任職於軒昂有限公司,主要工作是與產品端的系統整合服務的前後端web服務開發.  
-期間將MVC Razor page轉換成純前端頁面組件,升級angular與webpack並調整設定來加速編譯速度,引入Lazy Load module並拆分模組,使用React hooks重新改版平台.  
+期間將MVC Razor page轉換成純前端頁面組件,升級angular與webpack並調整設定來加速編譯速度,引入Lazy load module並拆分模組,使用React hooks重新改版平台.  
 處理介接廠商的技術問題並重新整合與規劃CICD流程與團隊的git flow.  
 期間完成 IIS 效能調整以防止Web服務因瞬間大流量造成應用崩潰,並開發Throttle功能針對指定目標限制流量和Circuit breaker功能.  
 
