@@ -57,7 +57,7 @@
 - WebSocket服務維護, 並改善Websocket Server端服務認證方式以避免遭受DDoS攻擊.
 
 ### 統一愛金卡股份有限公司 - Software Engineer - _2014/10-2016/04_
-- 7-11門市POS機和愛金卡中心端和7間銀行端的聯名卡自動加值服務開發.
+- 7-11門市POS機和愛金卡中心端和7間銀行端的聯名卡自動加值服務開發.  
   使用C#的Socket設計與實作一個自動連線的非同步socket clinet與非同步的socket server來做電文交換功能,並使用ActiveMQ實作Queue功能當作交易失敗後的授權補送功能.  
 - iBon卡機與愛金卡中心端的socket web服務開發.
 - iCash卡片製作時的加解密應用程式開發.
