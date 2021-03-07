@@ -33,14 +33,14 @@ At icash Co., Ltd, my main responsibility was to develop 7-11 POS and informatio
   4. Revision of the platform system using React hooks and JWT
   5. Redesign and implement a new CI/CD process base on team's GIT release process
   6. Communicate and assist partners in resolving technical issues during integration
-  7. Use Jmeter to stress test and adjust IIS performance to prevent web services from apllication crashing resulting from instantaneous large traffic
+  7. Use Jmeter to do load test and adjust IIS performance to prevent web services from apllication crashing resulting from instantaneous large traffic
   8. Develop throttle function to manage impact from sudden traffic
   9. Develop circuit breaker function to temporarily block a large number of abnormal requests
 
 ###  O'Pay Electronic Payment Co., Ltd.(歐付寶電子支付股份有限公司) - Software Engineer - _2016/04-2017/03_
   1. front-end development website for payment flow
   2. back-end development website for payment flow
-  3. Development of the water fee payment function in cooperation with the government
+  3. Development of the water bill payment function in cooperation with the government
   4. Web service development in mobile App webview
   5. (Android/iOS) notification service development and maintenance
   6. WebSocket service maintenance, and improve the Websocket Server-side service authentication method to avoid DDoS attacks
