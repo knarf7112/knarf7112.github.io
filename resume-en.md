@@ -1,24 +1,11 @@
 # Knock Yang (楊世嘉)
 
-Currently working at Xuenn Private Limited Co., Ltd.  
-The main job is to be responsible for the system interface and integration services of hundreds of partners.  
-In addition to fulfilling business requirements, the front-end architecture and performance improvement were also adjusted at the same time, 
-and have rich communication experience, assist multiple partners to deal with system integration issues.  
-Have good CI/CD process integration experience, plan and lead the team to implement the GIT release process.
-Experience in IIS tuning and stress testing to avoid application crashes.  
-Design and implement related functions of traffic control.  
+I am currently the lead contact window for integration services at Xuenn Co., Ltd for more than a hundred partners. In addition to provide integration services, resolve technical issues and fulfill business requirements for our partners, I also assist our partners to improve performance and the front-end architecture design. I am also responsible for CI/CD planning and implementation project, leading my department to implement GIT release process base on our work flow. My experience in Xuenn also includes IIS tuning, stress testing in preventing service impact, and design/implementation for traffic control related functions.
 
-The last job was at O'Pay Electronic Payment Co., Ltd.  
-The main work is the development of gold flow API functions and platform functions.  
-Complete the function of interfacing with the government's open platform for water fee payment, 
-Cooperate with the mobile team and implement the page function on the webview, 
-And have relevant experience in mobile phone native message push and Websocket server development, 
-improve the Websocket authentication method during the period to avoid DDoS attacks.  
+My previous work at O'Pay Electronic Payment Co., Ltd was to develop payment flow API and platform functions.
+I have completed the function and interface to integrate with government’s utility payment, worked with mobile team to implement function on website in webview. I have also worked on mobile phone native message push notification function and improvement of authentication process with Websocket server to avoid DDoS attacks.
 
-At icash Co., Ltd, the main work is the development of 7-11 POS card machine and the information service of the center, and the completion of multiple bank interfacing tasks.  
-Completed the automatic value-added service project of credit card cooperation between 7-11 store POS machines and the central terminal and multiple banks.  
-Development of enterprise value-added web services for 7-11 iBon devices.    
-An encryption and decryption application for iCash card production and key management. 
+At icash Co., Ltd, my main responsibility was to develop 7-11 POS and information system. I have completed integration with several banks including CTBC Bank, Taipeifubon and E.Sun commercial bank. The functions I’ve worked to develop include credit cards’ balance transfer/replenishing service in between 7-11 and the banks, enterprise functions for 7-11 iBon services, and encryption and decryption application for iCash card and encryption key management.
 
 ## Contacts
 
@@ -42,25 +29,25 @@ An encryption and decryption application for iCash card production and key manag
 ### Xuenn Private Limited Co., Ltd.(軒昂有限公司) - Software Engineer - _2017/03-now_
   1. Convert MVC Razor page into pure front-end page component
   2. Upgrade angular and webpack and adjust settings to speed up compilation
-  3. Introduce Lazy load module and split the module
-  4. Re-revision of the platform system using React hooks and JWT
-  5. Re-integration and planning of the CI/CD process and the team’s git release process
-  6. Communicate with partners and assist in dealing with related problems encountered in integration
-  7. Use Jmeter to stress test and adjust the performance of IIS to prevent web services from crashing applications due to instantaneous blocking of large traffic
-  8. Develop Throttle function to limit traffic
-  9. Develop the circuit breaker function to temporarily block a large number of abnormal requests
+  3. Introduce lazy load module and split the module
+  4. Revision of the platform system using React hooks and JWT
+  5. Redesign and implement a new CI/CD process base on team's GIT release process
+  6. Communicate and assist partners in resolving technical issues during integration
+  7. Use Jmeter to stress test and adjust IIS performance to prevent web services from apllication crashing resulting from instantaneous large traffic
+  8. Develop throttle function to manage impact from sudden traffic
+  9. Develop circuit breaker function to temporarily block a large number of abnormal requests
 
 ###  O'Pay Electronic Payment Co., Ltd.(歐付寶電子支付股份有限公司) - Software Engineer - _2016/04-2017/03_
-  1. front-end development website of payment flow
-  2. back-end development website of payment flow
+  1. front-end development website for payment flow
+  2. back-end development website for payment flow
   3. Development of the water fee payment function in cooperation with the government
   4. Web service development in mobile App webview
-  5. (Android/iOS) Push service development and maintenance
+  5. (Android/iOS) notification service development and maintenance
   6. WebSocket service maintenance, and improve the Websocket Server-side service authentication method to avoid DDoS attacks
 
 ### icash Co., Ltd.(統一愛金卡股份有限公司) - Software Engineer - _2014/10-2016/04_
-  1. Development of automatic credit card value-added services in cooperation between 7-11 store POS machines and iCash Center and 7 banks.  
-     Use C# Socket to design and implement an automatically connected asynchronous socket clinet and asynchronous socket server to communicate messages,  
+  1. Development of automatic credit card deposit services in cooperation between 7-11 store POS machines and iCash Center and 7 banks.  
+     Design and implement an automatically connected asynchronous socket clinet and asynchronous socket server with C# to communicate,  
      and use ActiveMQ to implement the Queue function as the authorization re-send function after the transaction fails
   2. Socket web service development of iBon card machine and iCash center
   3. Development of encryption and decryption applications when making iCash cards
