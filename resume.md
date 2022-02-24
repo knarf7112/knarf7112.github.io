@@ -1,18 +1,24 @@
 # 楊世嘉(Knock)
 
-目前任職於軒昂有限公司，主要工作是負責上百家合作廠商的系統介接與整合服務。  
-期間除了完成商業需求外並同時調整前端架構與效能改善，  
-並有豐富的溝通經驗，協助多間介接廠商處理系統整合上的問題，  
-有良好的CICD流程整合經驗，規劃並帶領團隊執行GIT的上版流程，  
-IIS校調與壓力測試的經驗以避免應用程式崩潰，  
+目前任職於伊諾科技有限公司，負責前端開發，使用React與Redux開發平台與體育競技相關需求。
+期間協助平台端改善多個基礎React組件間的re-render與無效memo問題，
+並協助體育競技產品內的websocket整併,使用STOMP並調整多個連線建立問題並拆分連線與商業邏輯，
+在公司讀書會分享TypeScript基礎並協助大家處理TS上的問題，
+在新專案上導入Cypress做整合性的功能測試，並重構第三方組件的動態載入與客製化。
+
+於軒昂有限公司時，負責上百家合作廠商的系統介接與整合服務。  
+期間除了完成商業需求外並同時調整前端架構與效能改善，
+並有豐富的溝通經驗，協助多間介接廠商處理系統整合上的問題，
+有良好的CICD流程整合經驗，規劃並帶領團隊執行GIT的上版流程，
+IIS校調與壓力測試的經驗以避免應用程式崩潰，
 設計與實作流量管制的相關功能。  
 
 於歐付寶時，主要工作為金流API功能與平台功能開發。  
-期間完成與政府開放式平台介接的功能，和手機團隊合作並實作webview端的頁面功能，   
+期間完成與政府開放式平台介接的功能，和手機團隊合作並實作webview端的頁面功能，
 也有手機原生推播與Websocket server端開發相關經驗，並改善Websocket認證方式避免遭受DDoS攻擊。  
 
 於統一愛金卡公司時，主要工作為超商門市POS卡機與中心端的資訊服務開發，並完成多間銀行介接任務。  
-期間完成7-11門市POS機和中心端和多間銀行合作的聯名卡自動加值服務專案，7-11門市iBon內的企業加值web服務，  
+期間完成7-11門市POS機和中心端和多間銀行合作的聯名卡自動加值服務專案，7-11門市iBon內的企業加值web服務，
 iCash卡片製作與金鑰管理的加解密應用程式。  
 
 ## Contacts
@@ -23,7 +29,7 @@ iCash卡片製作與金鑰管理的加解密應用程式。
 
 ## Key Skills
 
-- Frontend: ES6, Angular 6, RxJS, HTML5, Webpack,React Hooks
+- Frontend: React, Redux, Redux-Saga, TypeScript, GraphQL, , Websocket, ES6, JavaScript, Angular 6, RxJS, HTML5, Webpack
 - Backend: ASP.NET, Web API, ASP.NET.MVC, NodeJS
 - Databases: Redis, MSSQL
 - Testing: Mocka, NUnit, Spec flow, Selenium
@@ -34,14 +40,23 @@ iCash卡片製作與金鑰管理的加解密應用程式。
 
 ## Work Experience
 
-### 軒昂有限公司 - Software Engineer - _2017/03-now_
+### 伊諾科技有限公司 - Front-End Engineer - _2021/04-now_
+  1. 平台端react組件優化與重構, 改善re-render與無效memo問題
+  2. 整併websocket組件功能, 避免連線資源浪費並分離商業邏輯到hooks
+  3. 重新調整React Route客製組件
+  4. 改善平台與產品間的通訊(postMessage & Custom Event)
+  5. TypeScript讀書會分享並協助大家TS上的問題
+  6. 導入與分享Cypress整合測試
+  7. 第三方lib組件的動態載入與客製
+
+### 軒昂有限公司 - Software Engineer - _2017/03-2021/03_
   1. 將MVC Razor page轉換成純前端頁面組件
   2. 升級angular與webpack並調整設定來加速編譯速度
   3. 引入Lazy load module並拆分模組
   4. 使用React hooks與JWT重新改版平台系統
   5. 重新整合與規劃CICD流程以及團隊的git上版流程
   6. 與介接廠商溝通並協助處理整合上遭遇的相關問題
-  7. 使用Jmeter壓力測試並做IIS的效能調整以防止Web服務因瞬間阻斷性的大流量造成應用崩潰
+  7. 使用JMeter壓力測試並做IIS的效能調整以防止Web服務因瞬間阻斷性的大流量造成應用崩潰
   8. 開發Throttle功能來做流量限制
   9. 開發Circuit breaker功能來暫時性的阻擋大量異常請求
 

@@ -1,8 +1,13 @@
 # Knock Yang (楊世嘉)
 
-I am currently the lead contact window for integration services at Xuenn Co., Ltd for more than a hundred partners. In addition to provide integration services, resolve technical issues and fulfill business requirements for our partners, I also assist our partners to improve performance and the front-end architecture design. I am also responsible for CI/CD planning and implementation project, leading my department to implement GIT release process base on our work flow. My experience in Xuenn also includes IIS tuning, stress testing in preventing service impact, and design/implementation for traffic control related functions.
+I am currently work at Inno Technology Co., Ltd is the front-end engineer.
+Use React and Redux to develop platform and sports requirements.
+Assist platform-side react component refactoring to improve re-render multi times and invalid memories issues and refactor websocket component to avoid create multi connections and separate connect and business logic.
+Share the basics of TypeScript at the company study group and help everyone questions on TS.
 
-My previous work at O'Pay Electronic Payment Co., Ltd was to develop payment flow API and platform functions.
+My previous work at Xuenn Co., Ltd is the lead contact window for integration services for more than a hundred partners. In addition to provide integration services, resolve technical issues and fulfill business requirements for our partners, I also assist our partners to improve performance and the front-end architecture design. I am also responsible for CI/CD planning and implementation project, leading my department to implement GIT release process base on our work flow. My experience in Xuenn also includes IIS tuning, stress testing in preventing service impact, and design/implementation for traffic control related functions.
+
+At O'Pay Electronic Payment Co., Ltd was to develop payment flow API and platform functions.
 I have completed the function and interface to integrate with government’s utility payment, worked with mobile team to implement function on website in webview. I have also worked on mobile phone native message push notification function and improvement of authentication process with Websocket server to avoid DDoS attacks.
 
 At icash Co., Ltd, my main responsibility was to develop 7-11 POS and information system. I have completed integration with several banks including CTBC Bank, Taipeifubon and E.Sun commercial bank. The functions I’ve worked to develop include credit cards’ balance transfer/replenishing service in between 7-11 and the banks, enterprise functions for 7-11 iBon services, and encryption and decryption application for iCash card and encryption key management.
@@ -15,7 +20,7 @@ At icash Co., Ltd, my main responsibility was to develop 7-11 POS and informatio
 
 ## Key Skills
 
-- Frontend: ES6, Angular 6, RxJS, HTML5, Webpack,React Hooks
+- Frontend: React, Redux, Redux-Saga, TypeScript, GraphQL, , Websocket, ES6, JavaScript, Angular 6, RxJS, HTML5, Webpack
 - Backend: ASP.NET, Web API, ASP.NET.MVC, NodeJS
 - Databases: Redis, MSSQL
 - Testing: Mocka, NUnit, Spec flow, Selenium
@@ -26,7 +31,15 @@ At icash Co., Ltd, my main responsibility was to develop 7-11 POS and informatio
 
 ## Work Experience
 
-### Xuenn Private Limited Co., Ltd.(軒昂有限公司) - Software Engineer - _2017/03-now_
+### Inno Technology Co., Ltd.(伊諾科技有限公司) - Front-End Engineer - _2021/04-now_
+  1. platform-side react component refactoring to improve re-render multi times and invalid memories issues
+  2. refactor websocket component to avoid create multi connections and separate connect and business logic.
+  3. refactor custom react route logic for dynamic load script.
+  4. Study group sharing TypeScript and assist everyone with questions on TS.
+  5. Import Cypress integration tests
+  6. Dynamic loading and customization of third-party components
+
+### Xuenn Private Limited Co., Ltd.(軒昂有限公司) - Software Engineer - _2017/03-2021/03_
   1. Convert MVC Razor page into pure front-end page component
   2. Upgrade angular and webpack and adjust settings to speed up compilation
   3. Introduce lazy load module and split the module
