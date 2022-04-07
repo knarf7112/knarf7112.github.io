@@ -14,7 +14,7 @@ At icash Co., Ltd, my main responsibility was to develop 7-11 POS and informatio
 
 ## Contacts
 
-- Email: knarf7112@google.com
+- Email: knarf7112@gmail.com
 - Phone: (+886)917357981
 - Github: <https://github.com/knarf7112>
 

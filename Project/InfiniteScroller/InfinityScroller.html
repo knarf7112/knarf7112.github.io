@@ -125,7 +125,7 @@
                     return;
                 }
 
-                if ((e.target.scrollTop + e.target.clientHeight) >= e.target.scrollHeight) {
+                if ((e.target.scrollTop + e.target.clientHeight + 1) >= (e.target.scrollHeight)) {
                     if (this.isDone() || this.isInsufficientData()) {
                         let legacyData = this.isInsufficientData() ? [...this.lastItem.value] : [];
                         this.loading = true;

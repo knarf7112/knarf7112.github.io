@@ -23,7 +23,7 @@ iCash卡片製作與金鑰管理的加解密應用程式。
 
 ## Contacts
 
-- Email: knarf7112@google.com
+- Email: knarf7112@gmail.com
 - Phone: (+886)917357981
 - Github: <https://github.com/knarf7112>
 
