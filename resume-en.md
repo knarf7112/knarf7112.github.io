@@ -1,29 +1,37 @@
 # Knock Yang (楊世嘉)
 
-I am currently work at Inno Technology Co., Ltd is the front-end engineer.
-Use React and Redux to develop platform and sports requirements.
+I am currently work at Contibit Co., Ltd is the front-end engineer.  
+Use Vue3 and Pinia to develop platform requirements.  
+Assist integrate Onfido SDK to platform for personal identity verification.
+
+At Hippo Information Co., Ltd is the back-end engineer.  
+Assist the platform to develop file download related react components and scrolling components.  
+Use NestJS to develop API service and Laravel to develop integration service between API and third-party API service.
+
+At Inno Technology Co., Ltd is the front-end engineer.
+Use React and Redux to develop platform and product requirements.
 Assist platform-side react component refactoring to improve re-render multi times and invalid memories issues and refactor websocket component to avoid create multi connections and separate connect and business logic.
 Share the basics of TypeScript at the company study group and help everyone questions on TS.
 
-My previous work at Xuenn Co., Ltd is the lead contact window for integration services for more than a hundred partners. In addition to provide integration services, resolve technical issues and fulfill business requirements for our partners, I also assist our partners to improve performance and the front-end architecture design. I am also responsible for CI/CD planning and implementation project, leading my department to implement GIT release process base on our work flow. My experience in Xuenn also includes IIS tuning, stress testing in preventing service impact, and design/implementation for traffic control related functions.
+At Xuenn Co., Ltd is the lead contact window for integration services for more than a hundred partners. In addition to provide integration services, resolve technical issues and fulfill business requirements for our partners, I also assist our partners to improve performance and the front-end architecture design. I am also responsible for CI/CD planning and implementation project, leading my department to implement GIT release process base on our work flow. My experience in Xuenn also includes IIS tuning, stress testing in preventing service impact, and design/implementation for traffic control related functions.
 
 At O'Pay Electronic Payment Co., Ltd was to develop payment flow API and platform functions.
 I have completed the function and interface to integrate with government’s utility payment, worked with mobile team to implement function on website in webview. I have also worked on mobile phone native message push notification function and improvement of authentication process with Websocket server to avoid DDoS attacks.
 
-At icash Co., Ltd, my main responsibility was to develop 7-11 POS and information system. I have completed integration with several banks including CTBC Bank, Taipeifubon and E.Sun commercial bank. The functions I’ve worked to develop include credit cards’ balance transfer/replenishing service in between 7-11 and the banks, enterprise functions for 7-11 iBon services, and encryption and decryption application for iCash card and encryption key management.
+At iCash Co., Ltd, my main responsibility was to develop 7-11 POS and information system. I have completed integration with several banks including CTBC Bank, Taipeifubon and E.Sun commercial bank. The functions I’ve worked to develop include credit cards’ balance transfer/replenishing service in between 7-11 and the banks, enterprise functions for 7-11 iBon services, and encryption and decryption application for iCash card and encryption key management.
 
 ## Contacts
 
-- Email: knarf7112@gmail.com
+- Email: knock7112@gmail.com
 - Phone: (+886)917357981
 - Github: <https://github.com/knarf7112>
 
 ## Key Skills
 
-- Frontend: React, Redux, Redux-Saga, TypeScript, GraphQL, , Websocket, ES6, JavaScript, Angular 6, RxJS, HTML5, Webpack
-- Backend: ASP.NET, Web API, ASP.NET.MVC, NodeJS
-- Databases: Redis, MSSQL
-- Testing: Mocka, NUnit, Spec flow, Selenium
+- FrontEnd: React, Redux, Redux-Saga, TypeScript, GraphQL, Websocket, ES6, JavaScript, Angular 2, RxJS, Webpack, Vue3, Pinia
+- BackEnd: ASP.NET, Web API, ASP.NET.MVC, NestJS, Laravel
+- Databases: Redis, MSSQL, MySQL
+- Testing: Jest, NUnit, Spec flow, Selenium
 - DevOps: Jenkins, Powershell, bash
 - Network: nmap
 - Analytics: ELK
@@ -31,26 +39,42 @@ At icash Co., Ltd, my main responsibility was to develop 7-11 POS and informatio
 
 ## Work Experience
 
+### Contibit Technology Co., Ltd.(畢博科技股份有限公司) - Front-End Engineer - _2022/12-now_
+
+  1. Assist integrate Onfido SDK to platform for personal identity verification
+  2. Assist extend shared function with using hooks
+
+### Hippo Information Limited Co., Ltd. (核碼資訊有限公司) - Full-Stack Engineer - _2022/08-2022/12_
+
+  1. Assist the platform to develop file download related react components and scrolling components.
+  2. Develop backend API with NestJS on docker container.
+  3. Integrating third-party services, ex: Telegram Bot API.
+  4. Use the Laravel development system to integrate API services, integrate back-end APIs and third-party APIs.  
+
 ### Inno Technology Co., Ltd.(伊諾科技有限公司) - Front-End Engineer - _2021/04-now_
-  1. platform-side react component refactoring to improve re-render multi times and invalid memories issues
+
+  1. platform-side react component refactoring to improve re-render multi times and invalid memories issues.
   2. refactor websocket component to avoid create multi connections and separate connect and business logic.
   3. refactor custom react route logic for dynamic load script.
   4. Study group sharing TypeScript and assist everyone with questions on TS.
   5. Import Cypress integration tests
-  6. Dynamic loading and customization of third-party components
+  6. Dynamic loading and customization of third-party components, using *MutationObserver* complete the third-party script load then custom page elements and events.
 
 ### Xuenn Private Limited Co., Ltd.(軒昂有限公司) - Software Engineer - _2017/03-2021/03_
-  1. Convert MVC Razor page into pure front-end page component
+
+  1. Convert MVC Razor page into SPA page component
   2. Upgrade angular and webpack and adjust settings to speed up compilation
-  3. Introduce lazy load module and split the module
+  3. Refactor to lazy load module and split the normal module and share module.
   4. Revision of the platform system using React hooks and JWT
   5. Redesign and implement a new CI/CD process base on team's GIT release process
   6. Communicate and assist partners in resolving technical issues during integration
-  7. Use Jmeter to do load test and adjust IIS performance to prevent web services from apllication crashing resulting from instantaneous large traffic
-  8. Develop throttle function to manage impact from sudden traffic
+  7. Use JMeter to do load test and adjust IIS performance to prevent web services from application crashing resulting from instantaneous large traffic
+  8. Develop throttle function to manage impact from sudden traffic,  
+  Avoid the crash of our service due to the abnormal network of the partner service.
   9. Develop circuit breaker function to temporarily block a large number of abnormal requests
 
-###  O'Pay Electronic Payment Co., Ltd.(歐付寶電子支付股份有限公司) - Software Engineer - _2016/04-2017/03_
+### O'Pay Electronic Payment Co., Ltd.(歐付寶電子支付股份有限公司) - Software Engineer - _2016/04-2017/03_
+
   1. front-end development website for payment flow
   2. back-end development website for payment flow
   3. Development of the water bill payment function in cooperation with the government
@@ -58,13 +82,13 @@ At icash Co., Ltd, my main responsibility was to develop 7-11 POS and informatio
   5. (Android/iOS) notification service development and maintenance
   6. WebSocket service maintenance, and improve the Websocket Server-side service authentication method to avoid DDoS attacks
 
-### icash Co., Ltd.(統一愛金卡股份有限公司) - Software Engineer - _2014/10-2016/04_
+### iCash Co., Ltd.(統一愛金卡股份有限公司) - Software Engineer - _2014/10-2016/04_
+
   1. Development of automatic credit card deposit services in cooperation between 7-11 store POS machines and iCash Center and 7 banks.  
-     Design and implement an automatically connected asynchronous socket clinet and asynchronous socket server with C# to communicate,  
+     Design and implement an automatically connected asynchronous socket client and asynchronous socket server with C# to communicate,  
      and use ActiveMQ to implement the Queue function as the authorization re-send function after the transaction fails
   2. Socket web service development of iBon card machine and iCash center
   3. Development of encryption and decryption applications when making iCash cards
-
 
 ## Side Projects
 
@@ -73,5 +97,3 @@ At icash Co., Ltd, my main responsibility was to develop 7-11 POS and informatio
 ## Education
 
 - St. John's University(聖約翰科技大學), 2001 ~ 2005 , BEng（工學學士）, Department of Electrical Engineering(電機工程系)
-
-
