@@ -1,10 +1,6 @@
 # Knock Yang (楊世嘉)
 
-I am currently work at Contibit Co., Ltd is the front-end engineer.  
-Use Vue3 and Pinia to develop platform requirements.  
-Assist integrate Onfido SDK to platform for personal identity verification.
-
-At Hippo Information Co., Ltd is the back-end engineer.  
+At Hippo Information Co., Ltd is the full-stack engineer.  
 Assist the platform to develop file download related react components and scrolling components.  
 Use NestJS to develop API service and Laravel to develop integration service between API and third-party API service.
 
@@ -39,11 +35,6 @@ At iCash Co., Ltd, my main responsibility was to develop 7-11 POS and informatio
 
 ## Work Experience
 
-### Contibit Technology Co., Ltd.(畢博科技股份有限公司) - Front-End Engineer - _2022/12-now_
-
-  1. Assist integrate Onfido SDK to platform for personal identity verification
-  2. Assist extend shared function with using hooks
-
 ### Hippo Information Limited Co., Ltd. (核碼資訊有限公司) - Full-Stack Engineer - _2022/08-2022/12_
 
   1. Assist the platform to develop file download related react components and scrolling components.
@@ -51,7 +42,7 @@ At iCash Co., Ltd, my main responsibility was to develop 7-11 POS and informatio
   3. Integrating third-party services, ex: Telegram Bot API.
   4. Use the Laravel development system to integrate API services, integrate back-end APIs and third-party APIs.  
 
-### Inno Technology Co., Ltd.(伊諾科技有限公司) - Front-End Engineer - _2021/04-now_
+### Inno Technology Co., Ltd.(伊諾科技有限公司) - Front-End Engineer - _2021/04-2022/06_
 
   1. platform-side react component refactoring to improve re-render multi times and invalid memories issues.
   2. refactor websocket component to avoid create multi connections and separate connect and business logic.
