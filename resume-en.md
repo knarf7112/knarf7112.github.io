@@ -1,5 +1,15 @@
 # Knock Yang (楊世嘉)
 
+Currently, I am working as a senior frontend engineer at QiYi Technology Co., Ltd.  
+My primary responsibilities include refactoring and developing the chat system's user side and back office, as well as creating customer service systems and wallet systems.  
+During this period, I have completed around seven projects using Vue 2 and Vue 3.  
+In addition to fixing WebSocket issues in old projects, I redesigned WebSocket components to be shared across both Vue 2 and Vue 3 projects.  
+I am familiar with using Chrome DevTools to troubleshoot issues in production environments.  
+Utilizing Chrome DevTools Performance, I identified and resolved problems related to slow list rendering and input lag. Furthermore, I modularized chat room components so they can be reused for other projects' related functionalities.  
+I also have experience with Progressive Web Apps (PWAs) and Web Worker. To improve the loading speed of specific images, I used the Cache API to implement a proxy layer.  
+I integrated Sentry for debugging production environment issues and Cypress for comprehensive frontend/backend integration testing to ensure key business functions operate normally.  
+I discussed deployment strategies with my supervisor that suit our team's needs. Additionally, I enjoy sharing discussions about new technologies with colleagues or assisting them in resolving frontend-related problems.  
+
 At Hippo Information Co., Ltd is the full-stack engineer.  
 Assist the platform to develop file download related react components and scrolling components.  
 Use NestJS to develop API service and Laravel to develop integration service between API and third-party API service.
@@ -24,16 +34,27 @@ At iCash Co., Ltd, my main responsibility was to develop 7-11 POS and informatio
 
 ## Key Skills
 
-- FrontEnd: React, Redux, Redux-Saga, TypeScript, GraphQL, Websocket, ES6, JavaScript, Angular 2, RxJS, Webpack, Vue3, Pinia
-- BackEnd: ASP.NET, Web API, ASP.NET.MVC, NestJS, Laravel
-- Databases: Redis, MSSQL, MySQL
-- Testing: Jest, NUnit, Spec flow, Selenium
-- DevOps: Jenkins, Powershell, bash
+- FrontEnd: Vue2、Vue3、React、Redux、Redux-Saga、TypeScript、GraphQL、Websocket、ES6、JavaScript、Angular 6、RxJS、HTML5、Webpack、Vite
+- BackEnd: ASP.NET、Web API、ASP.NET.MVC、NestJS、Laravel
+- Databases: Redis、MSSQL、MySQL
+- Testing: Jest、NUnit、Spec flow、Cypress
+- DevOps: Jenkins、Powershell
 - Network: nmap
 - Analytics: ELK
-- Others: Socket, Agile Scrum, IIS Performance tuning
+- Others: Socket、Agile Scrum、IIS Performance tuning
 
 ## Work Experience
+
+### QiYi Technology Limited Co., Ltd. (奇異科技資訊有限公司) - Senior Front-End Engineer - _2023/04-now_
+
+  1.Designed and implemented WebSocket components for use in both Vue 2 and Vue 3.
+  2.Developed multiple projects using Vue 2 and Vue 3.
+  3.Refactored a chat communication project, which included: Virtual scroll、Performance optimization、QR code scanning、Notification components、WebSocket、Encryption/decryption、File upload components
+  4.Development of detailed chat room components, as well as PWA (Progressive Web App) and Web Worker technologies.
+  5.Integrated Sentry to help identify issues in production environments.
+  6.Based on team discussions, set up projects with Vite and ESLint configurations, developed shared components, and services.
+  7.Implemented Cypress for comprehensive integration testing to ensure that business functions across multiple projects operate normally.
+  8.Resolved issues related to slow page rendering (approximately 12 seconds) and input lag by using Chrome DevTools to identify problem areas and complete performance optimizations.
 
 ### Hippo Information Limited Co., Ltd. (核碼資訊有限公司) - Full-Stack Engineer - _2022/08-2022/12_
 
