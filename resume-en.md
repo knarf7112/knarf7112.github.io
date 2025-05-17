@@ -47,65 +47,65 @@ At iCash Co., Ltd, my main responsibility was to develop 7-11 POS and informatio
 
 ### QiYi Technology Limited Co., Ltd. (奇異科技資訊有限公司) - Senior Front-End Engineer - _2023/04-now_
 
-  1.Designed and implemented WebSocket components for use in both Vue 2 and Vue 3.
-  2.Developed multiple projects using Vue 2 and Vue 3.
-  3.Refactored a chat communication project, which included: Virtual scroll、Performance optimization、QR code scanning、Notification components、WebSocket、Encryption/decryption、File upload components
-  4.Development of detailed chat room components, as well as PWA (Progressive Web App) and Web Worker technologies.
-  5.Integrated Sentry to help identify issues in production environments.
-  6.Based on team discussions, set up projects with Vite and ESLint configurations, developed shared components, and services.
-  7.Implemented Cypress for comprehensive integration testing to ensure that business functions across multiple projects operate normally.
-  8.Resolved issues related to slow page rendering (approximately 12 seconds) and input lag by using Chrome DevTools to identify problem areas and complete performance optimizations.
+  1.Designed and implemented WebSocket components for use in both Vue 2 and Vue 3.  
+  2.Developed multiple projects using Vue 2 and Vue 3.  
+  3.Refactored a chat communication project, which included: Virtual scroll、Performance optimization、QR code scanning、Notification components、WebSocket、Encryption/decryption、File upload components  
+  4.Development of detailed chat room components, as well as PWA (Progressive Web App) and Web Worker technologies.  
+  5.Integrated Sentry to help identify issues in production environments.  
+  6.Based on team discussions, set up projects with Vite and ESLint configurations, developed shared components, and services.  
+  7.Implemented Cypress for comprehensive integration testing to ensure that business functions across multiple projects operate normally.  
+  8.Resolved issues related to slow page rendering (approximately 12 seconds) and input lag by using Chrome DevTools to identify problem areas and complete performance optimizations.  
 
 ### Hippo Information Limited Co., Ltd. (核碼資訊有限公司) - Full-Stack Engineer - _2022/08-2022/12_
 
-  1. Assist the platform to develop file download related react components and scrolling components.
-  2. Develop backend API with NestJS on docker container.
-  3. Integrating third-party services, ex: Telegram Bot API.
+  1. Assist the platform to develop file download related react components and scrolling components.  
+  2. Develop backend API with NestJS on docker container.  
+  3. Integrating third-party services, ex: Telegram Bot API.  
   4. Use the Laravel development system to integrate API services, integrate back-end APIs and third-party APIs.  
 
 ### Inno Technology Co., Ltd.(伊諾科技有限公司) - Front-End Engineer - _2021/04-2022/06_
 
-  1. platform-side react component refactoring to improve re-render multi times and invalid memories issues.
-  2. refactor websocket component to avoid create multi connections and separate connect and business logic.
-  3. refactor custom react route logic for dynamic load script.
-  4. Study group sharing TypeScript and assist everyone with questions on TS.
-  5. Import Cypress integration tests
-  6. Dynamic loading and customization of third-party components, using *MutationObserver* complete the third-party script load then custom page elements and events.
+  1. platform-side react component refactoring to improve re-render multi times and invalid memories issues.  
+  2. refactor websocket component to avoid create multi connections and separate connect and business logic.  
+  3. refactor custom react route logic for dynamic load script.  
+  4. Study group sharing TypeScript and assist everyone with questions on TS.  
+  5. Import Cypress integration tests  
+  6. Dynamic loading and customization of third-party components, using *MutationObserver* complete the third-party script load then custom page elements and events.  
 
 ### Xuenn Private Limited Co., Ltd.(軒昂有限公司) - Software Engineer - _2017/03-2021/03_
 
-  1. Convert MVC Razor page into SPA page component
-  2. Upgrade angular and webpack and adjust settings to speed up compilation
-  3. Refactor to lazy load module and split the normal module and share module.
-  4. Revision of the platform system using React hooks and JWT
-  5. Redesign and implement a new CI/CD process base on team's GIT release process
-  6. Communicate and assist partners in resolving technical issues during integration
-  7. Use JMeter to do load test and adjust IIS performance to prevent web services from application crashing resulting from instantaneous large traffic
+  1. Convert MVC Razor page into SPA page component  
+  2. Upgrade angular and webpack and adjust settings to speed up compilation  
+  3. Refactor to lazy load module and split the normal module and share module.  
+  4. Revision of the platform system using React hooks and JWT  
+  5. Redesign and implement a new CI/CD process base on team's GIT release process  
+  6. Communicate and assist partners in resolving technical issues during integration  
+  7. Use JMeter to do load test and adjust IIS performance to prevent web services from application crashing resulting from instantaneous large traffic  
   8. Develop throttle function to manage impact from sudden traffic,  
-  Avoid the crash of our service due to the abnormal network of the partner service.
-  9. Develop circuit breaker function to temporarily block a large number of abnormal requests
+  Avoid the crash of our service due to the abnormal network of the partner service.  
+  9. Develop circuit breaker function to temporarily block a large number of abnormal requests  
 
 ### O'Pay Electronic Payment Co., Ltd.(歐付寶電子支付股份有限公司) - Software Engineer - _2016/04-2017/03_
 
-  1. front-end development website for payment flow
-  2. back-end development website for payment flow
-  3. Development of the water bill payment function in cooperation with the government
-  4. Web service development in mobile App webview
-  5. (Android/iOS) notification service development and maintenance
-  6. WebSocket service maintenance, and improve the Websocket Server-side service authentication method to avoid DDoS attacks
+  1. front-end development website for payment flow  
+  2. back-end development website for payment flow  
+  3. Development of the water bill payment function in cooperation with the government  
+  4. Web service development in mobile App webview  
+  5. (Android/iOS) notification service development and maintenance  
+  6. WebSocket service maintenance, and improve the Websocket Server-side service authentication method to avoid DDoS attacks  
 
 ### iCash Co., Ltd.(統一愛金卡股份有限公司) - Software Engineer - _2014/10-2016/04_
 
   1. Development of automatic credit card deposit services in cooperation between 7-11 store POS machines and iCash Center and 7 banks.  
      Design and implement an automatically connected asynchronous socket client and asynchronous socket server with C# to communicate,  
-     and use ActiveMQ to implement the Queue function as the authorization re-send function after the transaction fails
-  2. Socket web service development of iBon card machine and iCash center
-  3. Development of encryption and decryption applications when making iCash cards
+     and use ActiveMQ to implement the Queue function as the authorization re-send function after the transaction fails  
+  2. Socket web service development of iBon card machine and iCash center  
+  3. Development of encryption and decryption applications when making iCash cards  
 
 ## Side Projects
 
 - [2015 - Pure JavaScript Grid library](https://knarf7112.github.io/)
-
+- [2025 - Next.JS Streaming Practice](https://next-js-cuu.pages.dev/)
 ## Education
 
 - St. John's University(聖約翰科技大學), 2001 ~ 2005 , BEng（工學學士）, Department of Electrical Engineering(電機工程系)
